@@ -12,5 +12,12 @@
 out.print("teste se JSP está funcionando");
 %>
 
+<br><br>
+
+<form action="receber-nome.jsp">
+<input name="nome">
+<input name="idade">
+<input type="submit" value="Enviar">
+</form>
 </body>
 </html>
