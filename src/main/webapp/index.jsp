@@ -7,17 +7,17 @@
 <title>Curso JSP</title>
 </head>
 <body>
-<h1>Teste HTML</h1>
-<%
-out.print("teste se JSP está funcionando");
-%>
+	<h1>Teste HTML</h1>
+	<%
+	out.print("teste se JSP está funcionando");
+	%>
 
-<br><br>
+	<br>
+	<br>
 
-<form action="receber-nome.jsp">
-<input name="nome">
-<input name="idade">
-<input type="submit" value="Enviar">
-</form>
+	<form action="ServletLogin" method="POST">
+		<input name="nome"> <input name="idade"> <input
+			type="submit" value="Enviar">
+	</form>
 </body>
 </html>
